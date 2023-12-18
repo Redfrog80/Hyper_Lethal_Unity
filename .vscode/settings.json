@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Hyper-Lethal.sln"
+    "dotnet.defaultSolution": "Hyper_Lethal_Unity.sln"
 }
