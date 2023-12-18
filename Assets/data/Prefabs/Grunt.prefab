@@ -170,8 +170,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2112ae5c2d901f49a6b8d31f3ea01dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxAcc: 15
-  maxVel: 40
+  maxAcc: 30
+  maxVel: 50
   drag: 0.2
   maxAngAcc: 360
   maxAngVel: 120
@@ -268,7 +268,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee733d7876518de4281272c3e08df4dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weight: 0.3
+  weight: 0.05
   AIState: 2
 --- !u!114 &1612670675521110995
 MonoBehaviour:
@@ -296,7 +296,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b385c30dcfb2e304ba6c49d3946c66ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weight: 0.8
+  weight: 0.95
   AIState: 2
 --- !u!114 &1247434104036909906
 MonoBehaviour:
@@ -327,11 +327,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec6b25d6d4265e94885744c1f8bf6475, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weight: 0.1
+  weight: 0.2
   AIState: 2
   wanderRate: 0.4
-  wanderOffset: 1.5
-  wanderRadius: 4
+  wanderOffset: 0
+  wanderRadius: 1
 --- !u!114 &1247434104036909905
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -344,7 +344,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af154c9a5aed3cf41bf95b6dba18e546, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weight: 0.1
+  weight: 0.3
   AIState: 2
   prediction: 1
 --- !u!114 &1247434104036909904
